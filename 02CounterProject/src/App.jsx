@@ -11,11 +11,18 @@ function App() {
 //at 0th index variable and at 1st index function which controls the state of that variable
  let [countValue,setCountValue]=useState(0)
   const addValue=()=>{
-   if(countValue<20){
-    countValue=countValue+1
+   if(countValue<100){
+    // countValue=countValue+1
+    // setCountValue(countValue+1)
+    setCountValue(countValue=>countValue+1)
+    setCountValue(countValue=>countValue+1)
+    setCountValue(countValue=>countValue+1)
+    setCountValue(countValue=>countValue+1)
+    setCountValue(countValue=>countValue+1)
+       
    }
    console.log("clicked on add",countValue)
-   setCountValue(countValue)
+  
   }
  const removeValue=()=>{
   if(countValue>0){
