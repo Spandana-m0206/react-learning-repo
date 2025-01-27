@@ -14,11 +14,11 @@ function App() {
    if(countValue<100){
     // countValue=countValue+1
     // setCountValue(countValue+1)
-    setCountValue(countValue=>countValue+1)
-    setCountValue(countValue=>countValue+1)
-    setCountValue(countValue=>countValue+1)
-    setCountValue(countValue=>countValue+1)
-    setCountValue(countValue=>countValue+1)
+    // setCountValue(countValue=>countValue+1)
+    // setCountValue(countValue=>countValue+1)
+    // setCountValue(countValue=>countValue+1)
+    // setCountValue(countValue=>countValue+1)
+    // setCountValue(countValue=>countValue+1)
        
    }
    console.log("clicked on add",countValue)
@@ -41,8 +41,8 @@ function App() {
      <button onClick={()=>addValue(10)}>increase count by 10</button> */}
       
     
-      <button onClick={addValue}>increase Count</button> <span> </span>
-      <button onClick={removeValue}>decrease Count</button>
+      <button onClick={()=>setCountValue(countValue<20?countValue+1:countValue)}>increase Count</button> <span> </span>
+      <button onClick={()=>setCountValue(countValue>0?countValue-1:countValue)}>decrease Count</button>
       
     </>
   )
