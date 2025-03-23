@@ -1,0 +1,16 @@
+.student{
+    border: 1px solid rgb(71, 66, 66);
+    box-shadow:2px 2px 2px rgb(104, 99, 99);
+    max-width:fit-content;
+    background-color: rgb(171, 171, 222);
+    border-radius: 5px;
+    display: inline-block;
+    margin: 20px;
+}
+.student h2{
+    font-family: sans-serif;
+    padding: 10px;
+    color: rgb(95, 87, 102); 
+    
+
+ }

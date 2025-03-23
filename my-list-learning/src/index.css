@@ -1,0 +1,14 @@
+.list-name{
+    text-align: center;
+    border:2px solid hsl(271, 37%, 16%) ;
+    border-radius: 10px;
+    background-color: rgb(154, 240, 240);
+    color: rgb(46, 46, 125);
+
+}
+.list-items{
+    text-align: center;
+    padding:2px;
+    list-style-type: none;
+
+}
